@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LWM's Patch Speed Test</name>
+  <author>Little White Mouse</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+This is a mod to test whether Patch operations should start with /Defs/... or with Defs/...
+
+You almost certainly do not want to actually use this in any game.
+
+Use: activate at end of mod list.  After game starts, read the debug log.
+  </description>
+  <url>https://github.com/lilwhitemouse/RimWorld-PatchSpeedTest</url>
+</ModMetaData>

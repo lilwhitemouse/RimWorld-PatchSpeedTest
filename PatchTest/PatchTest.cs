@@ -10,6 +10,7 @@ namespace LWM.PatchTest {
         protected override bool ApplyWorker(System.Xml.XmlDocument xml) {
             if (command == Command.Start) {
                 stopwatch = new Stopwatch();
+                stopwatch.Start();
                 if (message == "") {
                     message = "Stopwatch starting at time " + DateTime.Now;
                 } else {
