@@ -2,7 +2,7 @@
 
 RimWorld uses xpath for xml patching.  The xpath documentation seems to specify that using /Defs/etc should be faster than Defs/etc - both of which should be faster than */etc.
 
-But the common policy on the Ludeon Studios forum and in mods in general is that Defs/etc is the way to go.
+But the common policy on the Ludeon Studios forum and in mods in general is that Defs/etc is the way to go.  So, I ask, is this  correct?  Let's find out: I wrote up a little patch speed test.
 
 # Testing!
 
